@@ -1,0 +1,43 @@
+.navbar {
+    border-bottom: 2px solid #a6e0de;
+}
+
+.active-item {
+    background-color: #fd5008;
+    color: #ffffff;
+    border-radius: 15px;
+}
+.active-item:hover {
+    color: #ffffff;
+}
+
+.hero-section {
+    background-image: url('../images/main-section-bg.svg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.hero-content h1 {
+    color: #278fb0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    margin-bottom: 5px;
+}
+
+.hero-content h3 {
+    color: #278fb0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.hero-content p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-content button {
+    background-color: #fd5008;
+    color: white;
+}
